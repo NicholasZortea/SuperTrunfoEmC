@@ -1,0 +1,13 @@
+O superTrunfo será relacionado ao universo do jogo The Witcher 3 Wild Hunt, 
+onde as possíveis características de cada carta será:
+-> int agilidade;
+-> int força;
+-> int inteligência;
+-> int resistência;
+-> int magia;
+o intervalo de cada característica vai variar de 5 - 10;
+cada Carta terá um grupo, podendo ser Necrofagos,Draconideos,Construtos,Amaldiçoados;
+esse grupo será semelhante ao identifador de código das cartas normais do superTrunfo(A,B,C,D);
+o superTrunfo será do grupo dos Amaldiçoados, e só irá perder para cartas do grupo dos Necrófagos.
+
+Cada carta também vai possuir um nome e um inteiro que vai representar se essa carta será o superTrunfo
