@@ -5,9 +5,14 @@ onde as possíveis características de cada carta será:
 -> int inteligência;
 -> int resistência;
 -> int magia;
-o intervalo de cada característica vai variar de 5 - 10;
-cada Carta terá um grupo, podendo ser Necrofagos,Draconideos,Construtos,Amaldiçoados;
-esse grupo será semelhante ao identifador de código das cartas normais do superTrunfo(A,B,C,D);
-o superTrunfo será do grupo dos Amaldiçoados, e só irá perder para cartas do grupo dos Necrófagos.
+O intervalo de cada característica vai variar de 5 - 10;
+Cada Carta terá um grupo, podendo ser Necrofagos,Draconideos,Construtos,Amaldiçoados;
 
-Cada carta também vai possuir um nome e um inteiro que vai representar se essa carta será o superTrunfo
+Esse grupo será semelhante ao identifador de código das cartas normais do superTrunfo(A,B,C,D);
+O superTrunfo será do grupo dos Amaldiçoados, e só irá perder para cartas do grupo dos Necrófagos, ganhando de todas as demais cartas.
+
+Cada carta também vai possuir um nome e um inteiro(isSuperTrunfo) que vai representar se essa carta será o superTrunfo caso o inteiro seja igual a 1.
+
+Caso um dos jogadores tenha apenas uma carta, e ocorra um empate, outro atributo será escolhido, até que não ocorra mais empate.
+
+A condição de vitória é caso um dos jogadores alcance 16 cartas ou o adversário fique com 0 cartas.
