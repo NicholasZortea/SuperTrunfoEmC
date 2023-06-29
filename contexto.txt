@@ -5,14 +5,148 @@ onde as possíveis características de cada carta será:
 -> int inteligência;
 -> int resistência;
 -> int magia;
+
+esses atributos são representados por posições dentro de um vetor de inteiros de 5 posições chamado "atributos".
+
 O intervalo de cada característica vai variar de 5 - 10;
 Cada Carta terá um grupo, podendo ser Necrofagos,Draconideos,Construtos,Amaldiçoados;
 
-Esse grupo será semelhante ao identifador de código das cartas normais do superTrunfo(A,B,C,D);
+Esse grupo será semelhante ao identificador de código das cartas normais do superTrunfo(A,B,C,D);
 O superTrunfo será do grupo dos Amaldiçoados, e só irá perder para cartas do grupo dos Necrófagos, ganhando de todas as demais cartas.
 
 Cada carta também vai possuir um nome e um inteiro(isSuperTrunfo) que vai representar se essa carta será o superTrunfo caso o inteiro seja igual a 1.
 
-Caso um dos jogadores tenha apenas uma carta, e ocorra um empate, outro atributo será escolhido, até que não ocorra mais empate.
+Caso um dos jogadores tenha apenas uma carta, e ocorra um empate, outro atributo será escolhido.
 
-A condição de vitória é caso um dos jogadores alcance 16 cartas ou o adversário fique com 0 cartas.
+A condição de vitória é caso um dos jogadores alcance 16 cartas.
+
+Cartas do baralho:
+
+        Grupo da Carta: Necrofagos
+        Nome da Carta: Afogador
+        Agilidade: 8
+        Inteligencia: 5
+        Resistencia: 5
+        Forca: 5
+        Magia: 5
+
+        Grupo da Carta: Draconideos
+        Nome da Carta: Tordo
+        Agilidade: 7
+        Inteligencia: 5
+        Resistencia: 7
+        Forca: 6
+        Magia: 6
+
+        Grupo da Carta: Construtos
+        Nome da Carta: Djinn
+        Agilidade: 6
+        Inteligencia: 7
+        Resistencia: 5
+        Forca: 6
+        Magia: 10
+
+        Grupo da Carta: Necrofagos
+        Nome da Carta: Bruxa Aquatica
+        Agilidade: 6
+        Inteligencia: 7
+        Resistencia: 5
+        Forca: 7
+        Magia: 7
+
+        Grupo da Carta: Necrofagos
+        Nome da Carta: Carnical
+        Agilidade: 6
+        Inteligencia: 5
+        Resistencia: 6
+        Forca: 7
+        Magia: 5
+
+        Grupo da Carta: Draconideos
+        Nome da Carta: Cocatriz
+        Agilidade: 7
+        Inteligencia: 7
+        Resistencia: 7
+        Forca: 6
+        Magia: 5
+
+        Grupo da Carta: Construtos
+        Nome da Carta: Golem
+        Agilidade: 5
+        Inteligencia: 5
+        Resistencia: 9
+        Forca: 7
+        Magia: 5
+
+        Grupo da Carta: Construtos
+        Nome da Carta: Gargula
+        Agilidade: 5
+        Inteligencia: 6
+        Resistencia: 10
+        Forca: 6
+        Magia: 5
+
+        Grupo da Carta: Amaldicoados
+        Nome da Carta: Fetulho
+        Agilidade: 5
+        Inteligencia: 9
+        Resistencia: 5
+        Forca: 6
+        Magia: 6
+
+        Grupo da Carta: Necrofagos
+        Nome da Carta: Nevoloso
+        Agilidade: 8
+        Inteligencia: 6
+        Resistencia: 5
+        Forca: 5
+        Magia: 7
+
+        Grupo da Carta: Amaldicoados
+        Nome da Carta: Bruxo
+        Supertrunfo!
+        Agilidade: 7
+        Inteligencia: 8
+        Resistencia: 5
+        Forca: 6
+        Magia: 6
+
+        Grupo da Carta: Construtos
+        Nome da Carta: Elemental do Fogo
+        Agilidade: 5
+        Inteligencia: 6
+        Resistencia: 7
+        Forca: 6
+        Magia: 8
+
+        Grupo da Carta: Amaldicoados
+        Nome da Carta: Lobisomem
+        Agilidade: 8
+        Inteligencia: 7
+        Resistencia: 6
+        Forca: 6
+        Magia: 5
+
+        Grupo da Carta: Amaldicoados
+        Nome da Carta: Berserker
+        Agilidade: 8
+        Inteligencia: 6
+        Resistencia: 6
+        Forca: 7
+        Magia: 5
+
+        Grupo da Carta: Draconideos
+        Nome da Carta: Wyvern
+        Agilidade: 6
+        Inteligencia: 6
+        Resistencia: 7
+        Forca: 6
+        Magia: 8
+
+        Grupo da Carta: Draconideos
+        Nome da Carta: Basilisco
+        Agilidade: 7
+        Inteligencia: 5
+        Resistencia: 8
+        Forca: 7
+        Magia: 6

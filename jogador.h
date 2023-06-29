@@ -9,7 +9,7 @@ typedef struct Jogador
 
 int verificaVitoria(Jogador jogador, Jogador oponente)
 {
-    if(jogador.quantidadeCartas==16 || oponente.quantidadeCartas == 0)
+    if(jogador.quantidadeCartas==16)
     {
         printf("O %s ganhou o jogo!\n", jogador.nome);
         return 1;
